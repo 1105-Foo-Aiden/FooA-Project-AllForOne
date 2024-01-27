@@ -763,6 +763,11 @@ video {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -793,6 +798,11 @@ video {
 
   .xl\:text-6xl {
     font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
     line-height: 1;
   }
 
