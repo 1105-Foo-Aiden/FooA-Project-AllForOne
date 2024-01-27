@@ -10,23 +10,18 @@
     <button class="bg-black p-3 rounded-lg mt-5 ml-5 text-5xl text-white"><a href="../index.html"> &ltBack</a></button>
     <h1 class="text-6xl font-bold flex justify-center text-white">Two Questions</h1>
     <br><br><br><br><br><br><br><br>
-    <div class="flex justify-center">
+    <div class="grid grid-cols-3 gap-10">
         <p class="text-white">What is your name</p><br>
         <p class="text-white">When did you wake up?</p>
     </div>
-    <div class="container flex justify-center">
+    <div class="grid grid-cols-3 gap-10 px-2">
         <input class="flex justify-center w-70" type="text" placeholder="Please enter your name" id="UserInput1">  
-        <br><br>
+        <button id="submitBtn" class="bg-black text-white px-5 rounded-lg">Submit</button>
         <input type="number" class="flex justify-center w-70" placeholder="Enter when you woke up" id="UserInput2">
     </div>
-    <br><br><br><br><br>
-    <div class="flex justify-center">
-        <button id="submitBtn" class="bg-black text-white px-5 rounded-lg">Submit</button>
-        <br><br>
-        
-    </div>
+    <br><br><br><br><br
     <br><br><br>
-    <p class="flex justify-center text-white" id="result"></p>
+    <p class="flex justify-center text-white text-5xl" id="result"></p>
 
 
 
